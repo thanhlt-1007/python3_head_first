@@ -82,3 +82,119 @@ else:
 ## 21. Returning to the Python Shell
 
 ## 22. Experimenting at the shell
+
+### a. Flip the page when you're ready. Let the experiments begin.
+
+## 23. Iterating over a sequence of objects
+
+```python
+for i in [1, 2, 3]:
+  print(i)
+
+for ch in "Hi!"
+  print(ch)
+```
+
+## 24. Iterating a specific number of times
+
+```python
+for num in range(5):
+  print("Head First Rocks!")
+```
+
+## 25. Applying the outcome of task #1 to our code
+
+## 26. Indent suites with format ... indent region
+
+```python
+import datetime
+
+odds = [
+  1, 3, 5, 7, 9,
+  11, 13, 15, 17, 19,
+  21, 23, 25, 27, 29,
+  31, 33, 35, 37, 39,
+  41, 43, 45, 47, 49,
+  51, 53, 55, 57, 59
+]
+
+for i in range(5):
+  minute = datetime.datetime.today().minute
+  if minute in odds:
+    print("This minute seems a little odd.")
+  else:
+    print("Not an odd minute.")
+```
+
+## 27. Arranging to pause execution
+
+## 28. Importation Confusion
+
+## 29. Generating random integers with python
+
+## 30. Asking the interpreter for help
+
+## 31. Reviewing our experiments
+
+```python
+import datetime
+import random
+import time
+
+odds = [
+  1, 3, 5, 7, 9,
+  11, 13, 15, 17, 19,
+  21, 23, 25, 27, 29,
+  31, 33, 35, 37, 39,
+  41, 43, 45, 47, 49,
+  51, 53, 55, 57, 59
+]
+
+for i in range(5):
+  minute = datetime.datetime.today().minute
+  if minute in odds:
+    print("This minute seems a little odd.")
+  else:
+    print("Not an odd minute.")
+  wait_second = random.randint(1, 60)
+  time.sleep(wait_second)
+```
+
+## 32. Updating what we already know
+
+## 33. A few lines of code do a lot
+
+## 34. Coding a serious business application
+
+## 35. Python code is easy to read
+
+## 36. Is indentation driving you crazy
+
+## 37. Asking the interpreter for help on a function
+
+### a. Starting, stopping, and stepping
+
+## 38. Experimenting with Ranges
+
+```python
+range(5)
+# range(0, 5)
+# range(0, 5, 1)
+
+list(range(5))
+# [0, 1, 2, 3, 4]
+
+list(range(5, 10))
+# [5, 6, 7, 8, 9]
+
+list(range(0, 10, 2))
+# [0, 2, 4, 6, 8]
+
+list(range(10, 0, -2))
+# [10, 8, 6, 4, 2]
+
+list(range(10, 0, 2))
+# []
+```
+
+## 39. Don't forget to try the beer song code
