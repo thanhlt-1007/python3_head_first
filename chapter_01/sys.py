@@ -1,3 +1,5 @@
 import sys
 
-print(sys.platform)
+print("OS")
+print("Platform: " + sys.platform)
+print("Version: " + sys.version)
