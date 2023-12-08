@@ -198,3 +198,29 @@ letters[-1] # !
 letters[-3] # i
 letters[-6] # p
 ```
+
+## 26. Lists understand start, stop, and step
+
+## 27. List slices in action
+
+```python
+saying = "Don't panic!"
+letters = list(saying)
+letters
+letters[0:10:3] # ['D', "'", 'p', 'i']
+letters[3:] # ["'", 't', ' ', 'p', 'a', 'n', 'i', 'c', '!']
+letters[:10] # ['D', 'o', 'n', "'", 't', ' ', 'p', 'a', 'n', 'i']
+letters[::2] # ['D', 'n', 't', 'p', 'n', 'c']
+```
+
+## 28. Staring and stopping with lists
+
+```python
+book = "The Hitchhiker's Guide to the Galaxy"
+booklist = list(book)
+booklist
+
+booklist[0:3] # ['T', 'h', 'e']
+''.join(booklist[0:3]) # 'The'
+''.join(booklist[-6:]) # 'Galaxy'
+```
